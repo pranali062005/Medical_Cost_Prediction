@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Load the trained linear regression model (ensure your file is named 'model.pkl' or change path below)
-MODEL_PATH = 'linear2.pkl'
+MODEL_PATH = 'SVC.pkl'
 with open(MODEL_PATH, 'rb') as f:
     model = pickle.load(f)
 
